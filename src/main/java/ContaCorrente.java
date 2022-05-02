@@ -1,12 +1,21 @@
 public class ContaCorrente {
-    private double valor;
+    private double saldo;
+    public ContaCorrente(double saldo){
+        this.saldo = saldo;
+    }
 
+    public double getSaldo(){
+        return saldo;
+    }
     public void sacar(double valor){
-        this.valor = valor;
+        if (saldo < valor)
+            System.out.println("Saldo insuficiente");
+        else
+            this.saldo -= valor;
     }
 
     public void depositar(double valor){
-        this.valor = valor;
+        this.saldo += valor;
     }
 
 }

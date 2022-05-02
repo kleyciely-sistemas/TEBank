@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ContaCorrenteTeste" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-05-02T21:16:33" hostname="RONALDE" time="0.095">
+  <properties/>
+  <testcase name="TemQueAdicionarSaldoEmContaCorrenteDepoisVerificarOValorFinal()" classname="ContaCorrenteTeste" time="0.076"/>
+  <testcase name="TemQueRealizarSaqueEVerificarOValorFinal()" classname="ContaCorrenteTeste" time="0.007"/>
+  <testcase name="TemQueRealizarUmSaqueComSaldoZeroEPermanecerIgualAZero()" classname="ContaCorrenteTeste" time="0.005"/>
+  <system-out><![CDATA[Saldo insuficiente
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
